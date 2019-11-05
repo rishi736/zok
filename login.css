@@ -1,0 +1,78 @@
+
+body{
+    background: url(lion.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    color: #A9A9A9;
+}
+.loginbox
+{
+    background: black;
+    width: 320px;
+    margin-top: 70px;
+    height: 420px;
+    margin-left: 880px;
+    position: absolute;
+    box-sizing: border-box;
+    top: 10px;
+    left: 85px;
+    padding: 70px 30px;
+    }
+    form
+    {
+        width: 240px;
+        text-align: center;
+    }
+    input
+    {
+        width: 240px;
+        text-align: center;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #fff;
+        font-family: bold;
+        font-size: 16px;
+        font-weight: 200px;
+        padding: 10px 0;
+        transition: border 0.5s;
+        outline: none;
+        color: #fff;
+
+    }
+    input[type=submit]
+    {
+        border:none;
+        width:190px;
+        background: #fb2525;
+        color: #fff;
+        font-size: 18px;
+        line-height: 25px;
+        padding: 10px 0;
+        border-radius: 20px;
+        cursor:pointer;
+    }
+    input[type=submit]:hover
+    {
+        background:  #ffc107;
+        color: #000;
+    }
+    h1{
+    margin: 0;
+    padding: 0 0 5px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Chivo', sans-serif
+    color:dark grey;
+    } 
+    .loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover
+{
+    color: #ffc107;
+}
